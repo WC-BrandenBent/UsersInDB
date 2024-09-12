@@ -3,7 +3,7 @@ from flask_cors import CORS, cross_origin
 import sqlalchemy
 
 db = sqlalchemy.create_engine(
-    "mariadb+pymysql://root:@localhost:3306/userdb", echo=True
+    "mariadb+pymysql://root:@localhost:3306/userpracticedb", echo=True
 )
 
 app = Flask(__name__)
